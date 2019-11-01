@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#F51505"
+        android:padding="10dp"
+>
+    <TextView
+            android:layout_width="268dp"
+            android:layout_height="48dp"
+            android:text="Be a nice day"
+            android:gravity="center"
+            android:inputType="textEmailAddress"
+            android:ems="10"
+            android:textColor="#fff"
+            android:textStyle="italic"
+            android:textSize="30sp"
+            android:id="@+id/editText2"
+
+            app:layout_constraintStart_toStartOf="parent"
+
+            app:layout_constraintTop_toTopOf="parent"
+
+            app:layout_constraintEnd_toEndOf="parent"
+
+            app:layout_constraintHorizontal_bias="0.496"/>
+    <ImageButton
+            android:layout_width="312dp"
+            android:layout_height="218dp"
+            app:srcCompat="@drawable/img1"
+            android:id="@+id/imageButton" android:scaleType="fitXY"
+            app:layout_constraintTop_toBottomOf="@+id/editText2" app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.494"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
