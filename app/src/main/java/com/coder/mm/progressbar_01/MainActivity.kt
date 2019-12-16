@@ -75,9 +75,9 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun sendSms() {
-        val number="09682770265"
+        val number="09"
         val text="Hello,Text Message !"
-        SmsManager.getDefault().sendTextMessage(number,"09452653921",text,null,null)
+        SmsManager.getDefault().sendTextMessage(number,"09",text,null,null)
 
         Toast.makeText(this,"Message send success !",Toast.LENGTH_LONG).show()
     }
